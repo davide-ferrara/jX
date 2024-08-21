@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--File di configrazione per Jx-->
+<config>
+    <appInfo>
+        <name>Jx</name>
+        <version>1.0.0</version>
+        <description>Jx è un applicazione creata come progetto per la materia Programmazione A Oggetti L-31 UNIME</description>
+        <author>Davide Ferrara</author>
+        <contact>frrdvd98m07h224l@studenti.unime.it</contact>
+    </appInfo>
+
+    <asyncConfig>
+        <!-- Numero minimo di Thread-->
+        <corePoolSize>4</corePoolSize>
+        <!-- Numero massimo di Thread-->
+        <maxPoolSize>16</maxPoolSize>
+        <queueCapacity>1000</queueCapacity>
+        <threadNamePrefix>UserThread-</threadNamePrefix>
+    </asyncConfig>
+
+    <logging>
+        <logFile>app.log</logFile>
+    </logging>
+
+</config>
