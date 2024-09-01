@@ -1,6 +1,47 @@
-set 01, 2024 11:23:51 PM com.davideferrara.jx.JxApplication main
+set 02, 2024 12:59:29 AM com.davideferrara.jx.JxApplication main
 INFO: Starting application Jx
 Version: 1.0.0
 MadeBy: Davide Ferrara
 Description: Jx è un applicazione creata come progetto per la materia Programmazione A Oggetti L-31 UNIME
 Contact: frrdvd98m07h224l@studenti.unime.it
+set 02, 2024 1:01:01 AM com.davideferrara.jx.controllers.ProfileController getProfileById
+INFO: Updated profile: com.davideferrara.jx.models.Profile@556ba1e1
+set 02, 2024 1:01:48 AM com.davideferrara.jx.controllers.ProfileController getProfileById
+WARNING: Profile ID is no valid!
+set 02, 2024 1:01:52 AM com.davideferrara.jx.controllers.ProfileController getProfileById
+WARNING: Profile ID is no valid!
+set 02, 2024 1:02:36 AM com.davideferrara.jx.controllers.ProfileController getProfileById
+INFO: Updated profile: com.davideferrara.jx.models.Profile@9e19c6ff
+set 02, 2024 1:04:00 AM com.davideferrara.jx.services.ProfilePostService addProfilePost
+INFO: Searching for profile with id: 1
+set 02, 2024 1:04:00 AM com.davideferrara.jx.services.ProfilePostService addProfilePost
+WARNING: Profile with id: 1 not found
+set 02, 2024 1:04:04 AM com.davideferrara.jx.services.ProfilePostService addProfilePost
+INFO: Searching for profile with id: 3
+set 02, 2024 1:04:04 AM com.davideferrara.jx.services.ProfilePostService addProfilePost
+INFO: Adding new profile post: Oggi sono andato a mangiare un panino in spiaggia :)
+set 02, 2024 1:04:05 AM com.davideferrara.jx.services.ProfilePostService addProfilePost
+INFO: Searching for profile with id: 3
+set 02, 2024 1:04:05 AM com.davideferrara.jx.services.ProfilePostService addProfilePost
+INFO: Adding new profile post: Oggi sono andato a mangiare un panino in spiaggia :)
+set 02, 2024 1:04:05 AM com.davideferrara.jx.services.ProfilePostService addProfilePost
+INFO: Searching for profile with id: 3
+set 02, 2024 1:04:05 AM com.davideferrara.jx.services.ProfilePostService addProfilePost
+INFO: Adding new profile post: Oggi sono andato a mangiare un panino in spiaggia :)
+set 02, 2024 1:04:06 AM com.davideferrara.jx.services.ProfilePostService addProfilePost
+INFO: Searching for profile with id: 3
+set 02, 2024 1:04:06 AM com.davideferrara.jx.services.ProfilePostService addProfilePost
+INFO: Adding new profile post: Oggi sono andato a mangiare un panino in spiaggia :)
+set 02, 2024 1:04:17 AM com.davideferrara.jx.controllers.ProfileController getProfileById
+INFO: Updated profile: com.davideferrara.jx.models.Profile@82f8de35
+set 02, 2024 1:04:46 AM com.davideferrara.jx.services.ProfilePostService addProfilePost
+INFO: Searching for profile with id: 3
+set 02, 2024 1:04:46 AM com.davideferrara.jx.services.ProfilePostService addProfilePost
+INFO: Adding new profile post: Oggi sono andato a mangiare un panino in spiaggia :)
+set 02, 2024 1:04:54 AM com.davideferrara.jx.services.UserService addNewUser
+INFO: User will be added by Thread: UserThread-2
+set 02, 2024 1:04:54 AM com.davideferrara.jx.services.UserService addNewUser
+INFO: New user created: Person{id=1002, firstName='Margi', lastName='Crielly', dob=1986-05-01, age=null, gender=M, address='760 Sloan Way', cap='68501', country='Portugal'}
+User{email='mcrielly0@census.gov', profile=null}
+set 02, 2024 1:04:54 AM com.davideferrara.jx.services.UserService addNewUser
+INFO: Profile associated to the userId: 1002

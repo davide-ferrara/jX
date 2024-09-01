@@ -61,8 +61,8 @@ public class ProfileController {
     /**
      * Ritorno l'oggetto Profile tramite ID
      * */
-    @GetMapping(path = "{profile_id}")
-    public ResponseEntity<Map<String, Profile>> getProfileById(@PathVariable("profile_id") Long profileId) {
+    @GetMapping
+    public ResponseEntity<Map<String, Profile>> getProfileById(@RequestParam("profile_id") Long profileId) {
         Map<String, Profile> response = new HashMap<>();
         try {
             Profile profile = profileService.getProfileById(profileId);

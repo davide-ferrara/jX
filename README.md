@@ -13,13 +13,13 @@ Ad esempio, un'API REST utilizzerà una richiesta GET per recuperare un record. 
 | add-new-user                 | POST   | `http://localhost:8080/api/v1/user/add-new-user`       | `User object`            | Aggiunge un nuovo utente                | JSON          |
 | add-new-users                | POST   | `http://localhost:8080/api/v1/user/add-new-users`      | `List of User objects`   | Aggiunge nuovi utenti                   | JSON          |
 | get-all-users                | GET    | `http://localhost:8080/api/v1/user/all`                | Nessuno                  | Ritorna tutti gli utenti                | JSON          |
-| get-user-by-id               | GET    | `http://localhost:8080/api/v1/user/{user_id}`          | `user id`                | Ritorna un utente tramite ID            | JSON          |
+| get-user-by-id               | GET    | `http://localhost:8080/api/v1/user`                    | `user_id` (Query Param)  | Ritorna un utente tramite ID (parametro query) | JSON  |
 | update-user                  | PUT    | `http://localhost:8080/api/v1/user/update`             | `User object`            | Aggiorna le informazioni di un utente   | JSON          |
-| delete-user-by-id            | DELETE | `http://localhost:8080/api/v1/user/{user_id}`          | `user id`                | Elimina un utente tramite ID            | JSON          |
-| get-profile-by-id            | GET    | `http://localhost:8080/api/v1/profile/{profile_id}`    | `profile id`             | Ritorna il profilo tramite ID           | JSON          |
-| get-profile-description      | GET    | `http://localhost:8080/api/v1/profile/description`     | `profile_id`             | Ritorna la descrizione del profilo      | JSON          |
-| get-profile-num-of-posts     | GET    | `http://localhost:8080/api/v1/profile/num-of-posts`    | `profile_id`             | Ritorna il numero di post del profilo   | JSON          |
-| get-profile-num-of-followers | GET    | `http://localhost:8080/api/v1/profile/num-of-followers`| `profile_id`             | Ritorna il numero di follower del profilo | JSON        |
+| delete-user-by-id            | DELETE | `http://localhost:8080/api/v1/user/delete`             | `user_id` (Query Param)  | Elimina un utente tramite ID (parametro query) | JSON   |
+| get-profile-by-id            | GET    | `http://localhost:8080/api/v1/profile`                 | `profile_id` (Query Param) | Ritorna il profilo tramite ID (parametro query) | JSON |
+| get-profile-description      | GET    | `http://localhost:8080/api/v1/profile/description`     | `profile_id` (Query Param) | Ritorna la descrizione del profilo      | JSON          |
+| get-profile-num-of-posts     | GET    | `http://localhost:8080/api/v1/profile/num-of-posts`    | `profile_id` (Query Param) | Ritorna il numero di post del profilo   | JSON          |
+| get-profile-num-of-followers | GET    | `http://localhost:8080/api/v1/profile/num-of-followers`| `profile_id` (Query Param) | Ritorna il numero di follower del profilo | JSON      |
 | create-profile               | POST   | `http://localhost:8080/api/v1/profile`                 | `Profile object`         | Crea un nuovo profilo                   | JSON          |
-| get-profile-by-query         | GET    | `http://localhost:8080/api/v1/profile`                 | `profile_id`             | Ritorna il profilo tramite query        | JSON          |
+| get-profile-by-query         | GET    | `http://localhost:8080/api/v1/profile`                 | `profile_id` (Query Param) | Ritorna il profilo tramite query        | JSON          |
 | add-profile-post             | POST   | `http://localhost:8080/api/v1/profile-post/add`        | `Post object`            | Aggiunge un nuovo post al profilo       | JSON          |
