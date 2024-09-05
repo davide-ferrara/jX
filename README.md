@@ -23,3 +23,4 @@ Ad esempio, un'API REST utilizzerà una richiesta GET per recuperare un record. 
 | create-profile               | POST   | `http://localhost:8080/api/v1/profile`                 | `Profile object`         | Crea un nuovo profilo                   | JSON          |
 | get-profile-by-query         | GET    | `http://localhost:8080/api/v1/profile`                 | `profile_id` (Query Param) | Ritorna il profilo tramite query        | JSON          |
 | add-profile-post             | POST   | `http://localhost:8080/api/v1/profile-post/add`        | `Post object`            | Aggiunge un nuovo post al profilo       | JSON          |
+test
